@@ -1,0 +1,40 @@
+{% extends "menu_home.html" %}
+{% block content %}
+
+<body>
+  <h1>View Sales Transactions for a Menu Item</h1>
+
+<form method="POST" action="/menu_sales_input">
+<p>What menu item would you like to see sales for? <input type="text" name="query"> 
+<input type="submit"></p>
+</form>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Sales For Specific Menu Item</caption>
+  </tr>
+  <tr>
+	  <th>Customer Id</th>
+	  <th>Transaction Id</th>
+	  <th>Timestamp</th>
+	  <th>Dish Ordered</th>
+	  <th>Payment Type</th>
+	  <th>Price</th>
+	  <th>Number of Items</th>
+	  <th>Total Price</th>
+  </tr>
+    {% for n in data[1] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    <td>{{n[5]}}</td>
+    <td>{{n[6]}}</td>
+    <td>{{n[7]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+{% endblock %}

@@ -1,0 +1,34 @@
+{% extends "finances.html" %}
+{% block content %}
+
+  <img align="left" src={{ url_for('static', filename='busy.jpg') }}>
+  <img align="center" src={{ url_for('static', filename='dow.jpg') }}>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>All Financial Transactions</caption>
+  </tr>
+  <tr>
+	  <th>Customer Id</th>
+	  <th>Transaction Id</th>
+	  <th>Timestamp</th>
+	  <th>Dish Ordered</th>
+	  <th>Payment Type</th>
+	  <th>Price</th>
+	  <th>Number of Items</th>
+	  <th>Total Price</th>
+  </tr>
+    {% for n in data %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    <td>{{n[5]}}</td>
+    <td>{{n[6]}}</td>
+    <td>{{n[7]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+{% endblock %}

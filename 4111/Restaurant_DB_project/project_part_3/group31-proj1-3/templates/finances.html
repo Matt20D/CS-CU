@@ -1,0 +1,60 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+    
+    table.center{
+	margin-left:auto;
+	margin-right:auto;
+    }
+
+    input[type=text] {
+	border: 2px solid blue;
+	border-radius: 4px;
+    }
+  </style>
+
+<body>
+  <h1>Restaurant Finances</h1>
+
+<p><table border class="center">
+<tr>
+    <caption>Query Menu</caption>
+</tr>
+<tr>
+    <th>Query Input</th>
+    <th>Description</th>
+<tr>
+    <td bgcolor=yellow>all</td>
+    <td bgcolor=yellow>Get all the transactions for the restaurant</td>
+</tr>
+<tr>
+    <td>revenue</td>
+    <td>Get only the revenue transactions</td>
+<tr>
+    <td bgcolor=yellow>labor</td>
+    <td bgcolor=yellow>Get all of the labor transactions</td>
+</tr>
+<tr>
+    <td>food_costs</td>
+    <td>Get all of our food sourcing transactions</td>
+</table> 
+
+
+<form method="POST" action="/finances_input">
+<p>Which query would you like to run: <input type="text" name="cut"> 
+<input type="submit"></p>
+</form>
+
+    <div>
+    <br>
+    {% block content %}{% endblock %}
+    <br>
+    </div>
+
+<p><a href="/">Return to Database Homepage</a></p>
+
+</body>
+</html>

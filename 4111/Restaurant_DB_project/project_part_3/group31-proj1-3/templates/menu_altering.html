@@ -1,0 +1,37 @@
+{% extends "menu_home.html" %}
+{% block content %}
+
+<body>
+  <h1>Update and Alter Menu</h1>
+
+<p><table border class="center">
+<tr>
+    <caption>Query Menu</caption>
+</tr>
+<tr>
+    <th>Query Type</th>
+    <th>Example Input</th>
+<tr>
+    <td bgcolor=yellow>insert</td>
+    <td bgcolor=yellow>usage: insert, menu_item, price, description ; EX input: insert, Grilled Cheese, 10.50, Bread, Cheese, Tomato, Bacon ; Note: description can be NULL</td>
+</tr>
+<tr>
+    <td>update</td>
+    <td>usage: update, menu_item, col, col_value ; EX: update, Burger, price, 10 ; EX: update, Burger, description, Veggie, tomato</td>
+</tr>
+</table> 
+
+<form method="POST" action="/menu_altering_input">
+<p>Which alteration would you like to make: <input type="text" name="query"> 
+<input type="submit"></p>
+</form>
+
+  <p><table border class = "center">
+    {% for n in data[1] %}
+    <tr>
+    <td bgcolor=orange>{{n}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+{% endblock %}

@@ -1,0 +1,39 @@
+{% extends "finances.html" %}
+{% block content %}
+
+  <img align="center" src={{ url_for('static', filename='chart.jpg') }}>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Restaurant's Bottom Line (revenue - (food + labor costs))</caption>
+  </tr>
+  <tr>
+	  <th>Total $ amount</th>
+  </tr>
+    {% for n in data[0] %}
+    <tr> <td>{{n[0]}}</td> </tr>
+    {% endfor %}
+  </table>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>All Financial Transactions</caption>
+  </tr>
+  <tr>
+	  <th>Transaction Id</th>
+	  <th>Date</th>
+	  <th>Transaction Type</th>
+	  <th>Amount</th>
+  </tr>
+    {% for n in data[1] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+
+{% endblock %}

@@ -1,0 +1,76 @@
+{% extends "finances.html" %}
+{% block content %}
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>All Ingredient Purchases</caption>
+  </tr>
+  <tr>
+	  <th>Transaction Id</th>
+	  <th>Farmer Id</th>
+	  <th>Farm</th>
+	  <th>Date</th>
+	  <th>Ingredient</th>
+	  <th>Number of Items</th>
+	  <th>Ingredient Price</th>
+	  <th>Total Cost</th>
+  </tr>
+    {% for n in data[0] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    <td>{{n[5]}}</td>
+    <td>{{n[6]}}</td>
+    <td>{{n[7]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Top 10 Menu Items Sold by Total Dollars and Storage of Composite Ingredients</caption>
+  </tr>
+  <tr>
+	  <th>Menu Item</th>
+	  <th>Dollars Worth of Sale</th>
+	  <th>Ingredient</th>
+	  <th>Amount Stored</th>
+	  <th>Expiration Date</th>
+  </tr>
+    {% for n in data[1] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Bottom 10 Menu Items Sold by Total Dollars and Storage of Composite Ingredients</caption>
+  </tr>
+  <tr>
+	  <th>Menu Item</th>
+	  <th>Dollars Worth of Sale</th>
+	  <th>Ingredient</th>
+	  <th>Amount Stored</th>
+	  <th>Expiration Date</th>
+  </tr>
+    {% for n in data[2] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+{% endblock %}

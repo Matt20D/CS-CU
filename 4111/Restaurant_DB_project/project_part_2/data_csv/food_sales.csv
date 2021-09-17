@@ -1,0 +1,31 @@
+transaction_type,transaction_id,timestamp,customer_id,recipe_name
+revenue,45000,2/2/2021 10:04:23,5489501742,Buttermilk Biscuit
+revenue,45000,2/2/2021 10:05:23,5489501742,Soft Scrambled Eggs
+revenue,45000,2/2/2021 10:06:23,5489501742,Orange Juice
+revenue,45001,2/2/2021 9:50:36,3921569919,Simple Green Salad
+revenue,45001,2/2/2021 9:51:36,3921569919,Custard French Toast
+revenue,45001,2/2/2021 9:52:36,3921569919,House Made Granola
+revenue,45001,2/2/2021 9:53:36,3921569919,Fried Egg Sandwich
+revenue,45002,2/2/2021 8:14:55,6871478682,The Plow
+revenue,45002,2/2/2021 8:15:55,6871478682,Market Fruit
+revenue,45002,2/2/2021 8:16:55,6871478682,Grilled Cheese
+revenue,45002,2/2/2021 8:17:55,6871478682,Cold-Smoked Salmon Toast
+revenue,45003,2/2/2021 8:18:55,903098016,Chicory Salad
+revenue,45003,2/3/2021 8:24:47,903098016,Plow Burger
+revenue,45004,2/3/2021 9:54:52,5775628707,One Pancake
+revenue,45004,2/3/2021 9:55:52,5775628707,Chicken Apple Sausage
+revenue,45004,2/3/2021 9:56:52,5775628707,Buttermilk Biscuit
+revenue,45005,2/3/2021 9:31:27,1724244169,Chia Bowl
+revenue,45005,2/3/2021 9:32:27,1724244169,Buttermilk Biscuit
+revenue,45006,2/4/2021 9:27:18,5330362158,Lemon Ricotta Pancakes
+revenue,45006,2/4/2021 9:28:18,5330362158,Two Pastured Eggs
+revenue,45006,2/4/2021 9:29:18,5330362158,Soft Scrambled Eggs
+revenue,45006,2/4/2021 9:30:18,5330362158,Dungeness Crab Scramble
+revenue,45007,2/4/2021 10:33:41,5092005176,House Made Granola
+revenue,45007,2/4/2021 10:34:41,5092005176,Mimosa
+revenue,45008,2/4/2021 12:42:09,4333005231,Grapefruit Mimosa
+revenue,45009,2/4/2021 8:16:31,1861769465,Iced Tea
+revenue,45009,2/4/2021 8:17:31,1861769465,Chicory Salad
+revenue,45010,2/4/2021 12:19:12,9843832570,Breakaway Cold-Brewed Iced Matcha
+revenue,45011,2/4/2021 11:16:05,9837727207,Two Egg Breakfast
+revenue,45011,2/4/2021 11:17:05,9837727207,Five Mountains Organic Tea

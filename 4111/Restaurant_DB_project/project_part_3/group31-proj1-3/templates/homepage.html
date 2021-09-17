@@ -1,0 +1,50 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+    
+    table.center{
+	margin-left:auto;
+	margin-right:auto;
+    }
+
+    input[type=text] {
+	border: 2px solid blue;
+	border-radius: 4px;
+    }
+  </style>
+
+<body>
+  <h1>Welcome to our Restaurant Database Website</h1>
+
+<p><table border class="center">
+<tr>
+    <caption>Query Menu</caption>
+</tr>
+<tr>
+    <th>Input Number</th>
+    <th>Description</th>
+<tr>
+    <td bgcolor=yellow>1</td>
+    <td bgcolor=yellow>Enterprise Finances</td>
+</tr>
+<tr>
+    <td>2</td>
+    <td>Menu</td>
+<tr>
+    <td bgcolor=yellow>3</td>
+    <td bgcolor=yellow>Mailing List</td>
+</tr>
+</table> 
+
+<p><a href="references">View References.txt</a></p>
+
+<form method="POST" action="/user_input">
+<p>Which query would you like to run: <input type="text" name="query number"> 
+<input type="submit"></p>
+</form>
+
+</body>
+</html>

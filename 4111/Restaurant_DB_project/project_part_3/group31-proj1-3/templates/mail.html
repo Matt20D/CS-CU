@@ -1,0 +1,77 @@
+<html>
+  <style>
+    body{ 
+      font-size: 15pt;
+      font-family: arial;
+    }
+    
+    table.center{
+	margin-left:auto;
+	margin-right:auto;
+    }
+
+    input[type=text] {
+	border: 2px solid blue;
+	border-radius: 4px;
+    }
+  </style>
+
+<body>
+  <h1>Browse and Interact with Our Mailing List</h1>
+
+<p><table border class="center">
+<tr>
+    <caption>Query Menu</caption>
+</tr>
+<tr>
+    <th>Input Number</th>
+    <th>Description</th>
+<tr>
+    <td bgcolor=yellow>insert mailing list entry</td>
+    <td bgcolor=yellow>usage: insert, name (not NULL), email (not NULL), birthday </td>
+</tr>
+<tr>
+    <td>delete mailing list entry</td>
+    <td>usage: delete, name (not NULL)</td>
+</tr>
+</table> 
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Current Restaurant Mailing List </caption>
+  </tr>
+  <tr>
+	  <th>Customer Id</th>
+	  <th>Name</th>
+	  <th>Email</th>
+	  <th>Date Signed Up</th>
+	  <th>Birthday</th>
+  </tr>
+    {% for n in data[0] %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+<form method="POST" action="/mail_input">
+<p>How would you like to modify the mailing list? <input type="text" name="query"> 
+<input type="submit"></p>
+</form>
+
+  <p><table border class = "center">
+    {% for n in data[1] %}
+    <tr>
+    <td bgcolor=orange>{{n}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+<p><a href="/">Return to Database Homepage</a></p>
+
+</body>
+</html>

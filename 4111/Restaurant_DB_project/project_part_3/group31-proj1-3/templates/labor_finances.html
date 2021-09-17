@@ -1,0 +1,38 @@
+{% extends "finances.html" %}
+{% block content %}
+
+  <img align="left" src={{ url_for('static', filename='labor1.jpg') }}>
+  <img align="center" src={{ url_for('static', filename='labor2.jpg') }}>
+
+  <p><table border class = "center">
+  <tr>
+	  <caption>Labor Transactions</caption>
+  </tr>
+  <tr>
+	  <th>Transaction Id</th>
+	  <th>Day of Week</th>
+	  <th>Employee Id</th>
+	  <th>Name</th>
+	  <th>Job</th>
+	  <th>Hourly Salary</th>
+	  <th>Date</th>
+	  <th>Hours Worked</th>
+	  <th>Money Owed</th>
+  </tr>
+    {% for n in data %}
+    <tr>
+    <td>{{n[0]}}</td>
+    <td>{{n[1]}}</td>
+    <td>{{n[2]}}</td>
+    <td>{{n[3]}}</td>
+    <td>{{n[4]}}</td>
+    <td>{{n[5]}}</td>
+    <td>{{n[6]}}</td>
+    <td>{{n[7]}}</td>
+    <td>{{n[8]}}</td>
+    </tr>
+    {% endfor %}
+  </table>
+
+
+{% endblock %}
