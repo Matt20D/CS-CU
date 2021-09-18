@@ -21,7 +21,7 @@ Courses Taken:
         6. COMS 4701: Artificial Intelligence in Python 
         7. COMS 4118: Operating Systems I  
         8. COMS 4111: Introduction to Databases
-        9. COMS 4995: C++ for C Programmers
+        9. COMS 4995-001: C++ for C Programmers
 
 Currently Taking:
 
