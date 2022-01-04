@@ -9,6 +9,7 @@ There were four homework assignments:
 	1. echocat.cpp, Makefile
 		*  
 
-We also deployed a SaaS app on Heroku:   
+We also deployed a SaaS app on Heroku:  
+
 	1. InGame codebase: https://github.com/temo6cute/ingame   
 	2. InGame website deployment: https://ingame-esaas.herokuapp.com   
