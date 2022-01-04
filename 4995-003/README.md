@@ -11,5 +11,9 @@ There were four homework assignments:
 
 We also deployed a SaaS app on Heroku:  
 
-	1. InGame codebase: https://github.com/temo6cute/ingame    
+	1. InGame codebase: https://github.com/temo6cute/ingame  
+		* private repository, would need permission to access it! But I would be open to sharing
+		to anyone that is interested
+		
  	2. InGame website deployment: https://ingame-esaas.herokuapp.com  
+		* gamers, feel free to signup!
