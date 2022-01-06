@@ -20,16 +20,18 @@ There were five homework assignments which introduced us to ruby, rails, rspec, 
 		* 8-9-chips--acceptance--lifeCycle
 
 About our Application: 
-
+```
 Our main project was the deployment of a SaaS app on Heroku. Over a series of four iterations, we utilized agile development key concepts to refactor, refine, and produce our final deployed application. All of the code is located in the InGame codebase (link below), which is a private repo. I would have to grant permission to see the code, and would gladly accept any requests.
+```
 
 Mission Statement: 
-
+```
 Our application is called InGame, where gamers have a place to share and store in-game stills or live clips that they have created using gallery mode developer tools.
 
 As gaming hardware has evolved, video game graphics have followed suit. Gaming studios have also developed advanced screen capture functionality and gallery modes that allow the gamer to screenshot in game moments. These features have evolved to the point where gamers are a burgeoning content creation market. This “new media art” allows gamers to produce their own art within the detailed sandboxes that studios have dedicated years of development time to. By putting this power into the hands of the user, gamers can push the limits of the game’s intended use to create art and save their in game achievements. Graphics nowadays are so finely tuned that its impossible to discern fiction from reality. As the market for this content grows, there will need to be a place where you store, refine and share your content.
 
 It is time for you to display your talent, welcome to InGame.
+```
 
 Codebase:
 
