@@ -1,6 +1,6 @@
 # Analysis of Algorithms I
   
-In this course, you will learn how to analyze algiorithms (correctness and performance) and how to design efficient solutions to complex problems. There is an emphasis on sorting algorithms, recursion, recurrence relations, divide and conquer, data structures, greedy algorithms, dynamic programming, graphs and graph algorithms, networks flows, linear programming, randomized algorithms, NP-Completeness. Furthermore, given these efficient algorihtms in our toolkit, we will be able to reduce complex problems to ones that have known efficient algorithms.
+In this course, you will learn how to analyze algiorithms (correctness and performance) and how to design efficient solutions to complex problems. There is an emphasis on sorting algorithms, recursion, recurrence relations, divide and conquer, data structures, greedy algorithms, dynamic programming, graphs and graph algorithms, networks flows, linear programming, randomized algorithms, NP-Completeness. Furthermore, given these efficient algorithms in our toolkit, we will be able to reduce complex problems to ones that have known efficient algorithms.
 
 Per my Professor's Academic Integrity pledge I am not allowed to post solutions to any of my assignments here. However, I will detail the themes for each assignment and if you would like to see it send me an **email request** to mduran2429@gmail.com where I will provide you with a **link** to my **secret GitHub gist** for this course.
 
@@ -30,5 +30,5 @@ There were six homework assignments:
 		min_spanning_tree.py, SCC_dag.py
 	
 	6. hw_6: DAGs, linear programming, integer linear programming, graph cycles, network flows
-	(max-flow/min-cut theorem), graph connectivity, np-complete redu ctions
+	(max-flow/min-cut theorem), graph connectivity, np-complete reductions
 		* programs: num_paths.py, profit_cost_ratio.py
