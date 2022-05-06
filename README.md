@@ -25,11 +25,6 @@ Courses Taken:
        10. COMS 4995-003: Engineering Software as a Service   
        11. COMS 4119: Computer Networks   
        12. COMS 4231: Analysis of Algorithms I  
-
-Currently Taking:
-
        13. COMS 4115: Programming Languages and Translators    
        14. COMS 6111: Advanced Databases   
        15. COMS 6998-008: Cloud Computing and Big Data   
-       16. COMS 6156-001: Topics in Software Engineering   
-       17. COMS 6998-002: AI for Software Engineering   
