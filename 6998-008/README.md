@@ -5,7 +5,12 @@ Learned about how to design serverless, asynchronous, scalable systems that can 
 per my professor's academic integrity pledge i am not allowed to post solutions to any of my homework assignments here. However, i will detail the themes for each assignment and if you would like to see it send me an **email request** to mduran2429@gmail.com where i will provide you with a **link** to my **secret github gist** for this course.
 
 ```
-Surfworld Project: Built a sleekly designed web app that provides value to avid surfers, by aggregating surf specific data by the world's popular surf breaks and other third-party APIs. We provide the data in an easy to digest way, allowing surfers to search for data near their location (using geo-locations) or by searching for specific places. We leveraged AWS cloud services in order to build a fully decoupled system that could scale to a large number of users.
+Surfworld Project: Built a sleekly designed web app that provides value to avid surfers, 
+by aggregating surf specific data by the world's popular surf breaks and other third-party 
+APIs. We provide the data in an easy to digest way, allowing surfers to search for data 
+near their location (using geo-locations) or by searching for specific places. We leveraged 
+AWS cloud services in order to build a fully decoupled system that could scale to a large 
+number of users.
 
 Project Deliverables: 
 	
@@ -26,12 +31,19 @@ Source Code:
 		* https://github.com/Antwi007/cloud-project-surf
 
 Course Projects (Private Repo):
-	1) Chatbot: Implement a serverless, microservice-driven web application. Specifically, you will build a Dining Concierge chatbot that sends you restaurant suggestions given a set of preferences that you provide the chatbot with thorough conversation.
+	1) Chatbot: Implement a serverless, microservice-driven web application. Specifically, 
+	you will build a Dining Concierge chatbot that sends you restaurant suggestions given a 
+	set of preferences that you provide the chatbot with thorough conversation.
 	
-	2) Photo Album: Implemented a photo album web application that can be searched using natural language through both text and voice. You will learn how to use Lex, ElasticSearch, and Rekognition to create an intelligent search layer to query your
-photos for people, objects, actions, landmarks and more.
+	2) Photo Album: Implemented a photo album web application that can be searched using 
+	natural language through both text and voice. You will learn how to use Lex, ElasticSearch,
+	and Rekognition to create an intelligent search layer to query your photos for people, 
+	objects, actions, landmarks and more.
 
-	3) Email Service: Implemented a machine learning model to predict whether a message is spam or not. Furthermore, you will create a system that upon receipt of an email message, it will automatically flag it as spam or not, based on the prediction obtained from the machine learning model.
+	3) Email Service: Implemented a machine learning model to predict whether a message 
+	is spam or not. Furthermore, you will create a system that upon receipt of an email 
+	message, it will automatically flag it as spam or not, based on the prediction obtained 
+	from the machine learning model.
 ```
 
 
